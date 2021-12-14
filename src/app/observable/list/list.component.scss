@@ -1,0 +1,20 @@
+.row {
+    .content-row {
+        display: flex;
+        justify-content: center;
+        .list {
+            height: 150px;
+            width: 300px;
+            list-style: none!important;
+            background-color: aqua;
+            justify-content: space-around;
+            // .list-1 {
+            //     // text-decoration: none !important;
+            // }
+            align-items: center;
+        }
+        .list:hover {
+            background-color: lightblue;
+        }
+    }
+}
